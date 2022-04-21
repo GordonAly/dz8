@@ -48,6 +48,7 @@ function renderNewProductInBasket (productId) {
         renderProductInBasket(productId);
         return;
     }
+    
 const product = basket[productId];
 basketRowEl.querySelector('.productCount').textContent = product.count;
 basketRowEl
